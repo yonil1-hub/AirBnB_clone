@@ -1,12 +1,13 @@
 #!/usr/bin/python3
-"""Holds User class that inherits from BaseModel"""
+"""Defines the Amenity class."""
 from models.base_model import BaseModel
 
 
 class Amenity(BaseModel):
-    """Initializes the Amenity class
+    """Represent an amenity.
+
     Attributes:
-        name (str) - The name of the amenity
+        name (str): The name of the amenity.
     """
 
     name = ""
